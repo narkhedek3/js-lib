@@ -1,0 +1,11 @@
+{
+  "name": "make-js-simple",
+  "version": "1.0.0",
+  "description": "some functions to make js simple",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kiran Narkhede",
+  "license": "ISC"
+}
