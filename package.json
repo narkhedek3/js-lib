@@ -1,11 +1,19 @@
 {
   "name": "make-js-simple",
-  "version": "1.0.0",
-  "description": "library to make js simple",
+  "version": "1.0.1",
+  "description": "library with lots of predefined functions.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kiran Narkhede",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narkhedek3/make-js-simple.git"
+  },
+  "bugs": {
+    "url": "https://github.com/narkhedek3/make-js-simple/issues"
+  },
+  "homepage": "https://github.com/narkhedek3/make-js-simple#readme"
 }
