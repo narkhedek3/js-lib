@@ -6,7 +6,7 @@ const { unique } = require('./unique');
 const { remove } = require('./remove');
 const { concat } = require('./concat');
 const { reverse } = require('./reverse');
-
+const { equals } = require('./equals');
 
 module.exports = (function () {
     return {
@@ -17,6 +17,7 @@ module.exports = (function () {
         unique,
         remove,
         concat,
-        reverse
+        reverse,
+        equals
     }
 })();
