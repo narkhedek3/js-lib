@@ -5,6 +5,7 @@ const { findLast } = require('./findLast');
 const { unique } = require('./unique');
 const { remove } = require('./remove');
 const { concat } = require('./concat');
+const { reverse } = require('./reverse');
 
 
 module.exports = (function () {
@@ -15,6 +16,7 @@ module.exports = (function () {
         findLast,
         unique,
         remove,
-        concat
+        concat,
+        reverse
     }
 })();

@@ -1,6 +1,6 @@
 const { concat }  = require('./concat');
 
-exports.remove = function (array, ...values) {
+exports.remove = function ([...array], ...values) {
 
     const patchedArray = [];
 

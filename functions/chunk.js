@@ -1,5 +1,5 @@
 
-exports.chunk = (array, size = 1) => {
+exports.chunk = ([...array], size = 1) => {
 
     const chunks = [];
     const length = array.length;

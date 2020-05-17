@@ -1,6 +1,6 @@
 
 
-exports.unique = (array) => {
+exports.unique = ([...array]) => {
     if (!Array.isArray(array))
         throw new Error('provided argument is not array');
 
