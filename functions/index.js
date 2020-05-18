@@ -9,6 +9,7 @@ const { reverse } = require('./reverse');
 const { equals } = require('./equals');
 const { isArray } = require('./isArray');
 const { contains } = require('./contains');
+const { allInUpperCase } = require('./allInUpperCase');
 
 module.exports = (function () {
     return {
@@ -22,6 +23,7 @@ module.exports = (function () {
         reverse,
         equals,
         isArray,
-        contains
+        contains,
+        allInUpperCase
     }
 })();
