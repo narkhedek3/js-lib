@@ -7,6 +7,8 @@ const { remove } = require('./remove');
 const { concat } = require('./concat');
 const { reverse } = require('./reverse');
 const { equals } = require('./equals');
+const { isArray } = require('./isArray');
+const { contains } = require('./contains');
 
 module.exports = (function () {
     return {
@@ -18,6 +20,8 @@ module.exports = (function () {
         remove,
         concat,
         reverse,
-        equals
+        equals,
+        isArray,
+        contains
     }
 })();

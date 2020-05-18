@@ -1,0 +1,2 @@
+
+exports.isArray = Array.isArray;
