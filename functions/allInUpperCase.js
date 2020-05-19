@@ -10,13 +10,13 @@ exports.allInUpperCase = (data) => {
 
     if (typeof data === typeof {}) {
 
-        const uppperCasedObject = {};
+        const upperCasedObject = {};
 
         const props = Object.getOwnPropertyNames(data);
 
-        props.forEach(prop => uppperCasedObject[prop] = this.allInUpperCase(data[prop]));
+        props.forEach(prop => upperCasedObject[prop] = this.allInUpperCase(data[prop]));
 
-        return uppperCasedObject;
+        return upperCasedObject;
     }
 
     return data;

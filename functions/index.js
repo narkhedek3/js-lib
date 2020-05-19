@@ -10,6 +10,8 @@ const { equals } = require('./equals');
 const { isArray } = require('./isArray');
 const { contains } = require('./contains');
 const { allInUpperCase } = require('./allInUpperCase');
+const { allInLowerCase } = require('./allInLowerCase');
+const { union } = require('./union');
 
 module.exports = (function () {
     return {
@@ -24,6 +26,8 @@ module.exports = (function () {
         equals,
         isArray,
         contains,
-        allInUpperCase
+        allInUpperCase,
+        allInLowerCase,
+        union
     }
 })();
