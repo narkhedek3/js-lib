@@ -1,6 +1,6 @@
 {
   "name": "make-js-simple",
-  "version": "1.0.1",
+  "version": "1.0.1.0",
   "description": "library with lots of predefined functions.",
   "main": "index.js",
   "scripts": {
