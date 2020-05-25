@@ -2,13 +2,13 @@
 
 exports.equals = (obj1,obj2) => {
 
+  if(obj1 === obj2) {
+    return true;
+  } 
+
   if(typeof obj1 !== typeof obj2) {
     return false;
   }
-
-  if(typeof obj1 !== typeof {}) {
-    return obj1 === obj2;
-  } 
 
   const obj1props = Object.getOwnPropertyNames(obj1);
   const obj2props = Object.getOwnPropertyNames(obj2);
