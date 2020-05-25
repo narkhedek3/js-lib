@@ -1,5 +1,6 @@
 
 exports.concat = (...values) => {
+    if(values === null) return;
     return add(values, []);
 }
 

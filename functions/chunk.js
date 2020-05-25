@@ -1,6 +1,8 @@
 
 exports.chunk = ([...array], size = 1) => {
 
+    if(array === null) return;
+
     const chunks = [];
     const length = array.length;
     const totalPossibleChunks = parseInt(length / size);
