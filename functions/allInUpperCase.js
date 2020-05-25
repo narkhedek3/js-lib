@@ -2,6 +2,8 @@
 
 exports.allInUpperCase = (data) => {
 
+    if(data === null) return;
+
     if (typeof data === typeof "")
         return data.toUpperCase();
 

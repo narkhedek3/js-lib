@@ -6,6 +6,8 @@ const mandatory = () => { throw new Error("less arguments are passed."); }
 
 exports.union = (arr1 = mandatory(), arr2 = mandatory()) => {
 
+    if(arr1 === null) return; 
+
     if (typeof arr1 !== typeof arr2)
         throw new Error('Type of both passed arguments must be same');
 
