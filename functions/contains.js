@@ -1,6 +1,8 @@
 
 exports.contains = (data, key) => {
 
+    if(data === null) return;
+
     if (Array.isArray(data) || typeof data === typeof "") {
         return data.indexOf(key) >= 0 ? true : false;
     }
