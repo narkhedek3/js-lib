@@ -1,4 +1,5 @@
 
+import { equals } from './equals';
 
 exports.unique = ([...array]) => {
     if (!Array.isArray(array))

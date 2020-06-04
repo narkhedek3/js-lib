@@ -15,7 +15,7 @@ exports.union = (arr1 = mandatory(), arr2 = mandatory()) => {
         return unique(mergedArray);
     }
 
-    if (arr1 && arr1.add && arr1.has) {
+    if (arr1 && arr1.toString()) {
         const union = new Set();
         arr1.forEach(element => union.add(element));
         arr2.forEach(element => union.add(element));

@@ -12,6 +12,7 @@ const { contains } = require('./contains');
 const { allInUpperCase } = require('./allInUpperCase');
 const { allInLowerCase } = require('./allInLowerCase');
 const { union } = require('./union');
+const { difference } = require('./difference');
 
 module.exports = (function () {
     return {
@@ -28,6 +29,7 @@ module.exports = (function () {
         contains,
         allInUpperCase,
         allInLowerCase,
-        union
+        union,
+        difference
     }
 })();
