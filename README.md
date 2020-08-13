@@ -1,4 +1,4 @@
-# make-js-simple
+# js-lib
 <br />
 
 This package provides you number of function which can make your javascript coding simpler
